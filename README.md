@@ -43,8 +43,11 @@ SceneMenu/
 
 ## 다른 프로젝트에 이식
 
-1. `SceneMenu/` 폴더 통째로 `Assets/.../Editor/` 아래에 복사합니다.
-2. `.gitignore`에 생성 파일을 추가합니다. (아래 참고)
+1. Release에서 .unitypackage 다운 → Unity에서 Import
+(또는 더블클릭)
+2. .gitignore에 아래 내용 추가
+**/SceneMenu/GeneratedSceneMenu.cs
+**/SceneMenu/GeneratedSceneMenu.cs.meta
 3. Unity 에디터를 엽니다. `GeneratedSceneMenu.cs`가 없으면 즉시 생성되고, 이후 씬 목록으로 갱신됩니다.
 
 외부 패키지 의존성 없음. `UnityEditor` API만 사용합니다.
