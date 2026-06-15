@@ -15,7 +15,6 @@ SceneMenu/
 ├── SceneMenuSettings.cs
 ├── SceneMenuSettingsWindow.cs
 ├── SceneMenuWatcher.cs
-├── SceneMenu_README.md
 └── GeneratedSceneMenu.cs   ← 자동 생성 (Git 제외)
 ```
 
